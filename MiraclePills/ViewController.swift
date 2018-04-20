@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func BuyNowBtnPressed(_ sender: Any) {
+        //changes to new segue
         performSegue(withIdentifier: "buyNow", sender: nil)
     }
     
